@@ -325,7 +325,7 @@ img {
   display: block;
 }
 
-.div-container {
+.header {
   width: 1200;
   padding-left: 15px;
   padding-right: 15px;
@@ -333,24 +333,50 @@ img {
   margin-right: auto;
 }
 
-.main-img {
+/*.main-img {
   background-image: url(../imeges/Header-img/Headerimg.jpg);
   position: absolute;
   width: 1600px;
   height: 600px;
-}
+}*/
 
 /*лого + навігація*/
 .header-navigation {
   display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-right: 85px;
 }
 
 .navigation-list,
-.navigation-list-item,
 .address-list {
   display: flex;
+  align-items: center;
 }
 
-.navigation-list-item :not(:last-child) {
+.navigation-list-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.address-util {
+  display: flex;
+  align-items: center;
+}
+
+.address-item:not(:last-child) {
+  margin-right: 30px;
+}
+.address-item {
+  display: flex;
+  align-items: center;
+}
+.address-item-img {
+  margin-right: 10px;
 }
