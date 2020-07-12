@@ -13,46 +13,69 @@
   </head>
   <body>
     <!--Шапка: Логотип, навігація, контакт email, тел-->
-    <header class="header">
+    <header>
       <!--навігація в шапці-->
-      <nav class="navigation">
-        <a
-          class="header-logo link"
-          aria-label="Логотип"
-          href="./index.html"
-          lang="en"
-        >
-          <span class="logo-web">Web</span> Studio</a
-        >
-        <ul class="navigation-list list">
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link active" href="./portfolio.html"
-              >Портфолио</a
-            >
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <!--адреса контакт email, тел-->
-      <address class="address">
-        <ul class="address-list list">
-          <li class="address-item">
-            <a class="address-emaile link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="address-item">
-            <a class="address-tel link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-navigation">
+        <nav class="navigation">
+          <a
+            class="header-logo link"
+            aria-label="Логотип"
+            href="./index.html"
+            lang="en"
+          >
+            <span class="logo-web">Web</span> Studio</a
+          >
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a
+                class="navigation-list-link link active"
+                href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--адреса контакт email, тел-->
+        <div class="address-util">
+          <address class="address">
+            <ul class="address-list list">
+              <li class="address-item">
+                <img
+                  class="address-item-img"
+                  src="./imeges/Social-links/mail.svg"
+                  alt="КОнверт"
+                  width="15"
+                  height="10"
+                />
+                <a class="address-emaile link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <img
+                  class="address-item-img"
+                  src="./imeges/Social-links/phone-icon.svg"
+                  alt="телевон"
+                  width="10"
+                  height="15"
+                />
+                <a class="address-tel link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </header>
     <!--Портфоліо-->
     <main>
