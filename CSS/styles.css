@@ -303,6 +303,28 @@ body {
 
 /*style margin, padding*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
 .div-container {
   width: 1200;
   padding-left: 15px;
@@ -316,4 +338,19 @@ body {
   position: absolute;
   width: 1600px;
   height: 600px;
+}
+
+/*лого + навігація*/
+.header-navigation {
+  display: flex;
+}
+
+.navigation-list,
+.navigation-list-item,
+.address-list {
+  display: flex;
+}
+
+.navigation-list-item :not(:last-child) {
+  margin-right: 50px;
 }
