@@ -544,7 +544,9 @@ img {
 .manager-name {
   margin-bottom: 10px;
 }
-
+.our-team-list-item img {
+  margin-bottom: 0px;
+}
 .our-team-list-item img.manager {
   margin-bottom: 30px;
 }
