@@ -456,12 +456,13 @@ img {
 
 /*наші стандарти*/
 .standards {
+  padding-top: 47px;
+  padding-bottom: 47px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
 }
 .list-standards {
   display: flex;
@@ -479,22 +480,17 @@ img {
   padding: 25px 100px;
   margin-bottom: 30px;
 }
-/*
-.satandards-items {
-  width: 270px;
-  height: 16px;
-  margin-bottom: 10px;
-}*/
 
 /*Чем мы занимаемся*/
 /*НЕ ОФОРМЛЕНИЙ ТЕКСТ І БЕКГРАУНД !!!!!!!!!!!!!! */
 .projects {
   width: 1200px;
+  padding-top: 47px;
+  padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
 }
 
 .projects .list {
@@ -512,8 +508,8 @@ img {
 
 .our-team {
   width: 1200px;
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -536,6 +532,12 @@ img {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+}
+.our-team-list-container {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 24px;
 }
 
 .our-team-list-item:not(:last-child) {
