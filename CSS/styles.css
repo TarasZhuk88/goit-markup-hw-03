@@ -71,7 +71,10 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .address-item img {
+  width: 16px;
+  height: 12px;
   color: #757575;
   margin: right 10px;
 }
@@ -535,7 +538,7 @@ img {
   margin-right: 32px;
   margin-left: 32px;
 }
-.social-list li {
+.social-list-item {
   padding: 12px;
   margin-right: 10px;
 }
@@ -602,6 +605,9 @@ img {
 .footer-social-list {
   display: flex;
 }
+.footer-social-list {
+  margin-top: 20px;
+}
 
 .join-social-link {
   margin-right: 94px;
@@ -610,11 +616,12 @@ img {
   width: 145px;
   height: 16px;
 }
-.solcial-link-item {
+
+/*.solcial-link-item {
   padding: 12px;
   margin-right: 10px;
   margin-top: 20px;
-}
+}*/
 .sign-up {
   width: 570px;
   height: 86px;
@@ -651,3 +658,5 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+/*ПОРТФОЛІО*/
