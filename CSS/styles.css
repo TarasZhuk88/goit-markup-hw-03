@@ -709,8 +709,8 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.portfolio-works-hovfoc :hover,
-.portfolio-works-hovfoc :focus {
+.portfolio-works-item a:hover,
+.portfolio-works-item a:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
