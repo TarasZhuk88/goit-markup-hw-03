@@ -198,7 +198,7 @@ body {
 .manager-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-light-theme-color);
@@ -362,8 +362,8 @@ img {
   align-items: baseline;
   align-items: center;
   justify-content: space-between;
-  padding-top: 34px;
-  padding-bottom: 34px;
+  /*padding-top: 24px;
+  padding-bottom: 25px;*/
 }
 .navigation-list-link {
   padding-top: 34px;
@@ -538,8 +538,12 @@ img {
   margin-right: 32px;
   margin-left: 32px;
 }
+
 .social-list-item {
   padding: 12px;
+}
+
+.social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -704,9 +708,13 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+.portfolio-works-hovfoc :hover,
+.portfolio-works-hovfoc :focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
+
 .portfolio-works-text {
   padding-top: 20px;
   padding-right: 24px;
