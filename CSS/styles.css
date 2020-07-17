@@ -184,7 +184,7 @@ body {
 }
 
 /*Чем мы занимаемся*/
-.projects .satandards-items {
+.projects-satandards-items {
   padding-top: 27px;
   padding-bottom: 27px;
   background: rgba(47, 48, 58, 0.8);
@@ -415,7 +415,7 @@ img {
   padding-bottom: 45px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
+  /*margin-bottom: 94px;*/
 }
 .h1-slaider {
   background: rgba(47, 48, 58, 0.8);
