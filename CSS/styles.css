@@ -616,16 +616,15 @@ img {
 .join-social-link {
   margin-right: 94px;
 }
+/*ХОВЕР І ФОКУС НА ІКОНКИ СОЦ СТОРІНОК!!! .solcial-link-item:hover,
+.solcial-link-item:focus {
+  background-color: var(--accent-color);
+}*/
 .action {
   width: 145px;
   height: 16px;
 }
 
-/*.solcial-link-item {
-  padding: 12px;
-  margin-right: 10px;
-  margin-top: 20px;
-}*/
 .sign-up {
   width: 570px;
   height: 86px;
